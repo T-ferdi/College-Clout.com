@@ -1,0 +1,178 @@
+body
+{
+  width: 100%;
+  margin: 0;
+  height: 100%;
+}
+
+a
+{
+  display: inline;
+  color: white;
+}
+
+button
+{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 33px;
+  margin-left: 8px;
+  border-color: black;
+  border-width: 0px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+}
+
+a:hover
+{
+  opacity: .6;
+}
+
+button:hover
+{
+  font-family: Arial;
+  cursor: pointer;
+  opacity: .6;
+}
+.college-clout-logo
+{
+  margin-left: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 53px;
+}
+
+.top-part
+{
+  padding-bottom: 5px;
+  height: 63px;
+  border-bottom: 4px dotted black;
+}
+
+.top-left-logo
+{
+  display: inline-block;
+  margin-right: 100px;
+  vertical-align: auto;
+}
+
+.use-selection
+{
+  margin-right: 50px;
+  float: right;
+  vertical-align: top;
+
+}
+.Services, .Oppurtunities, .About, .Login-in
+{
+  background-image: radial-gradient(#337BB2,#99BBD8);
+}
+
+.about-college-clout
+{
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  width: 70%;
+  margin-left: 14%;
+  margin-right: 14%;
+  border: solid;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255);
+  background-image: linear-gradient(to bottom left, rgb(112, 172, 255, .5), rgba(187, 169, 251, 0.488));
+  border-color: rgb(190, 133, 255);
+  
+}
+
+.about-cc-section
+{
+  border-bottom: 2px solid rgba(0, 0, 0, 0.423) ;
+  background-image: linear-gradient(to top right, rgb(112, 172, 255), rgba(187, 169, 251, 0.488));
+  padding-bottom: 40px;
+}
+
+.about-cc-title
+{
+  font-family: 'Kantumruy Pro', sans-serif;;
+  text-decoration: underline;
+  padding-top: 20px;
+  margin-top: 0px;
+  font-size: 20px;
+  text-align: center;
+}
+
+img
+{
+  width: 256px;
+  height: 370px;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.about-founders
+{
+  overflow: hidden;
+  padding-top: 20px;
+  background-image: linear-gradient(to bottom right, rgb(112, 172, 255), rgba(187, 169, 251, 0.488));
+  height: 100%;
+}
+
+.center
+{
+  overflow: hidden;
+  width:90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.about-tristan
+{
+  padding-left: 50px;
+  float: left;
+}
+
+.about-akil
+{
+  padding-right: 50px;
+  float: right;
+}
+
+.founders-title
+{
+  font-family: 'Kantumruy Pro', sans-serif;;
+  text-decoration: underline;
+  padding-top: 20px;
+  margin-top: 0px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.tristan-description
+{
+  width:550px;
+  border-right: solid;
+  border-left: solid;
+  text-align: center;
+  font-family: 'Kantumruy Pro', sans-serif;
+}
+
+.akil-description
+{
+  width:550px;
+  border-right: solid;
+  border-left: solid;
+  text-align: center;
+  font-family: 'Kantumruy Pro', sans-serif;
+}
+
+.akil-img
+{
+margin-left: 25%;
+}
+
+.tristan-img
+{
+  margin-left: 25%;
+}
