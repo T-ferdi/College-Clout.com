@@ -378,3 +378,66 @@ div
   font-size: 9.7px;
 }
 
+.why-title
+{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.why_us
+{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  overflow: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.peers
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgba(93, 95, 93, .45);
+  background-color: #99BBD8;
+  font-size: 25px;
+  display: inline-block;
+  width: 400px;
+  height: 325px;
+}
+
+.peers-p
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin:0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.relatable
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgba(93, 95, 93, .45);
+  background-color: #99BBD8;
+  font-size: 25px;
+  display: inline-block;
+  width: 400px;
+  height: 325px;
+}
+
+.relatable-p
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin:0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  line-height: 25px;
+}

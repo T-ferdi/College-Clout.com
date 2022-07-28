@@ -1,0 +1,87 @@
+a
+{
+  display: inline;
+  color: white;
+}
+
+p
+{
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+body
+{
+  width: 100%;
+  margin: 0;
+}
+
+button
+{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 33px;
+  margin-left: 8px;
+  border-color: black;
+  border-width: 0px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+}
+
+a:hover
+{
+  opacity: .6;
+}
+
+button:hover
+{
+  font-family: Arial;
+  cursor: pointer;
+  opacity: .6;
+}
+
+div
+{
+  font-family: Verdana;
+}
+.college-clout-logo
+{
+  margin-left: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 53px;
+}
+
+.top-part
+{
+  padding-bottom: 5px;
+  height: 63px;
+  border-bottom: 4px dotted black;
+}
+
+.top-left-logo
+{
+  display: inline-block;
+  margin-right: 100px;
+  vertical-align: auto;
+}
+
+.use-selection
+{
+  margin-right: 50px;
+  float: right;
+  vertical-align: top;
+
+}
+.Services, .Oppurtunities, .About, .Login-in
+{
+  background-image: radial-gradient(#337BB2,#99BBD8 );
+}
+
+.top-layer
+{
+  height: 63.37vh;
+  margin: auto;
+}
+
