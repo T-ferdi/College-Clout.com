@@ -106,7 +106,7 @@ div
   vertical-align: middle;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  font-size: 3vw;
+  font-size: 2.55vw;
   width: 80vw;
 
 }
@@ -131,8 +131,8 @@ div
 
 .place-holder
 {
-  height:18vw;;
-  width: 70vw;
+  height:300px;
+  width: 1152px;
 }
 
 /*Start of Key Feature Element*/
@@ -287,7 +287,7 @@ div
   padding-top: 15px;
   width: 100%;
   display: grid;
-  grid-template-columns: 23vw 23vw 23vw 23vw;
+  grid-template-columns: 338px 338px 338px 338px;
   column-gap: 15px;
   row-gap: 30px;
 }
