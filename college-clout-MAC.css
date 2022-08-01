@@ -145,7 +145,7 @@ div
 .feature-oppurtunities
 {
   overflow: auto;
-  background-color: white;
+  background-color: azure;
   font-size: 1.5vw;
   border: solid black;
   padding-left: 25vw;
@@ -158,7 +158,7 @@ div
 {
   margin-top: .5vw;
   color: black;
-  background-color: white;
+  background-color: transparent;
   width: 15vw;
   font-size: .9vw;
   text-align: center;
@@ -210,6 +210,7 @@ div
 
 .feature-chat
 {
+  background-color:lightsteelblue;
   overflow: auto;
   font-size: 1.5vw;
   border: solid;
@@ -227,13 +228,13 @@ div
 
 .title-chat
 {
-  background-color: white;
+  background-color: transparent;
   font-size: 1.5vw;
 }
 
 .chat-description
 {
-  margin-top: .5vw;
+  margin-top: .1vw;
   float: right;
   border: solid 2px;
   width: 15vw;
@@ -262,6 +263,7 @@ div
 
 .meeting-description
 {
+  background-color: rgb(228, 242, 255);
   border: solid 2px;
   width: 15vw;
   font-size: .9vw;
@@ -390,10 +392,22 @@ div
   text-align: center;
 }
 
+.why-title
+{
+  color:black;
+  background-color: #b5fae3;
+  border-top: dotted;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 2.5em;
+  text-align: center;
+}
+
 .why_us
 {
-  margin-top: 10px;
-  margin-bottom: 50px;
+  background-color: #b5fae3;
+  padding-top: 10px;
+  padding-bottom: 50px;
   overflow: auto;
   display: flex;
   text-align: center;
@@ -406,7 +420,7 @@ div
 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   border-radius: 20px;
-  box-shadow: 3px 3px 10px rgba(93, 95, 93, .45);
+  box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.45);
   background-color: #99BBD8;
   font-size: 25px;
   display: inline-block;
@@ -428,7 +442,7 @@ div
 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   border-radius: 20px;
-  box-shadow: 3px 3px 10px rgba(93, 95, 93, .45);
+  box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.45);
   background-color: #99BBD8;
   font-size: 25px;
   display: inline-block;
