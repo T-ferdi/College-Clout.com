@@ -252,6 +252,7 @@ div
 
 .feature-meetings
 {
+  background-color: rgb(228, 242, 255);
   font-size: 1.5vw;
   border: solid;
   padding-left: 25vw;
@@ -263,7 +264,6 @@ div
 
 .meeting-description
 {
-  background-color: rgb(228, 242, 255);
   border: solid 2px;
   width: 15vw;
   font-size: .9vw;
@@ -401,6 +401,7 @@ div
   padding-bottom: 20px;
   font-size: 2.5em;
   text-align: center;
+  margin:0;
 }
 
 .why_us
