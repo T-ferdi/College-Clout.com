@@ -81,7 +81,7 @@ div
 
 .top-layer
 {
-  height: 63.37vh;
+  height: 64vh;
   margin: auto;
 }
 
@@ -92,7 +92,7 @@ div
   flex-direction: column;
   background-color: white;
   width: 100vw;
-  height: 63.37vh;
+  height: 64vh;
   box-shadow: 3px 3px 10px rgba(93, 95, 93, .45);
   overflow: auto;
   align-items: center;
@@ -122,15 +122,16 @@ div
 
 .start-button
 {
-  font-size: 50px;
+  font-size: 42px;
   color: black;
   font-weight: bold;
   font-family: 'Kantumruy Pro', sans-serif;
   margin-bottom: 1vw;
 }
 
-.place-holder
+.home-pg-img
 {
+  background-image: radial-gradient(white,aliceblue);
   height:300px;
   width: 1152px;
 }

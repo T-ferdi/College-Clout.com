@@ -129,8 +129,9 @@ div
   margin-bottom: 1vw;
 }
 
-.place-holder
+.home-pg-img
 {
+  background-image: radial-gradient(white,aliceblue);
   height:300px;
   width: 1152px;
 }
