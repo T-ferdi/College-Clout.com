@@ -74,7 +74,7 @@ div
   vertical-align: top;
 
 }
-.Services, .Oppurtunities, .About, .Login-in
+.Chat, .Oppurtunities, .About
 {
   background-image: radial-gradient(#337BB2,#99BBD8 );
 }
@@ -282,6 +282,9 @@ div
 
 .homepage-grid
 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #E0FFFF;
   justify-content: center;
   align-content: center;
   padding-top: 15px;
@@ -300,7 +303,7 @@ div
   display: inline-block;
   border-radius: 16px;
   height: 210px;
-  background-color: #febb75;
+  background-color: #B9D9EB;
 }
 
 .internship2
@@ -310,7 +313,7 @@ div
   border-color: #91c5f3;
   border-radius: 16px;
   height: 210px;
-  background-color:#F2cac8;
+  background-color:#AFEEEE;
 }
 
 .internship3
@@ -320,7 +323,7 @@ div
   border-color: #91c5f3;
   border-radius: 16px;
   height: 210px;
-  background-color: #Fb948f;
+  background-color: #6495ED;
 }
 
 .internship4
@@ -330,7 +333,7 @@ div
   border-color: #91c5f3;
   border-radius: 16px;
   height: 210px;
-  background-color:#c36b84;
+  background-color:#F0F8FF;
 }
 
 .intern-preview

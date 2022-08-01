@@ -64,7 +64,16 @@ button:hover
   vertical-align: top;
 
 }
-.Services, .Oppurtunities, .About, .Login-in
+.Oppurtunities, .About, .Chat
 {
   background-image: radial-gradient(#337BB2,#99BBD8 );
+}
+
+.group-chat
+{
+  border:none;
+  width:100%;
+  height:500px;
+  display: block;
+  align-content: center;
 }

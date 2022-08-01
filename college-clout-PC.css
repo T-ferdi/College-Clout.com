@@ -1,0 +1,446 @@
+a
+{
+  display: inline;
+  color: white;
+}
+
+p
+{
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+body
+{
+  width: 100%;
+  margin: 0;
+}
+
+button
+{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 33px;
+  margin-left: 8px;
+  border-color: black;
+  border-width: 0px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+}
+
+a:hover
+{
+  opacity: .6;
+}
+
+button:hover
+{
+  font-family: Arial;
+  cursor: pointer;
+  opacity: .6;
+}
+
+div
+{
+  font-family: Verdana;
+}
+.college-clout-logo
+{
+  margin-left: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 53px;
+}
+
+.top-part
+{
+  padding-bottom: 5px;
+  height: 63px;
+  border-bottom: 4px dotted black;
+}
+
+.top-left-logo
+{
+  display: inline-block;
+  margin-right: 100px;
+  vertical-align: auto;
+}
+
+.use-selection
+{
+  margin-right: 50px;
+  float: right;
+  vertical-align: top;
+
+}
+.About, .Oppurtunities, .Chat
+{
+  background-image: radial-gradient(#337BB2,#99BBD8 );
+}
+
+.top-layer
+{
+  height: 63.37vh;
+  margin: auto;
+}
+
+/* Website GOAL/STATEMENT Start*/
+.website-goal
+{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100vw;
+  height: 63.37vh;
+  box-shadow: 3px 3px 10px rgba(93, 95, 93, .45);
+  overflow: auto;
+  align-items: center;
+}
+
+.goal-statement
+{
+  padding: 0;
+  margin:0;
+  border-width: 1px;
+  vertical-align: middle;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 2.55vw;
+  width: 80vw;
+
+}
+
+.goal-description
+{
+  display: block;
+  width: 30vw;
+  font-size: 1.5vw;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.start-button
+{
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Kantumruy Pro', sans-serif;
+  margin-bottom: 1vw;
+}
+
+.place-holder
+{
+  height:300px;
+  width: 1152px;
+}
+
+/*Start of Key Feature Element*/
+.features
+{
+  border: solid;
+}
+
+.feature-oppurtunities
+{
+  overflow: auto;
+  background-color: white;
+  font-size: 1.5vw;
+  border: solid black;
+  padding-left: 25vw;
+  padding-right: 25vw;
+  border-left: none;
+  border-right: none
+}
+
+.opp-description
+{
+  margin-top: .5vw;
+  color: black;
+  background-color: white;
+  width: 15vw;
+  font-size: .9vw;
+  text-align: center;
+  border: solid 2px;
+  border-top: none;
+  border-bottom: none;
+  display: inline-block;
+}
+
+.opp-image
+{
+  border-radius: 10px;
+  width: 15vw;
+  border: solid;
+  display: grid;
+  grid-template-columns: 4vw 4vw 4vw;
+  column-gap: 1vw;
+  row-gap: 1vw;
+  float: right;
+  height: 10vw;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 1vw;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine
+{
+  border-radius: 5px;
+  height: 2vw;
+  border: solid;
+  box-shadow: 3px 3px 10px rgba(93, 95, 93, .45);
+  font-size: 1vw;
+}
+
+.one, .six, .nine
+{
+  background-color: honeydew;
+}
+
+.two, .seven, .five
+{
+  background-color:#99BBD8;
+}
+
+.three, .four, .eight
+{
+  background-color:rgb(242, 236, 200);
+}
+
+.feature-chat
+{
+  overflow: auto;
+  font-size: 1.5vw;
+  border: solid;
+  padding-left: 25vw;
+  padding-right: 25vw;
+  border-left: none;
+  border-right: none
+}
+
+.chat-group
+{
+  overflow: auto;
+  float: right;
+}
+
+.title-chat
+{
+  background-color: white;
+  font-size: 1.5vw;
+}
+
+.chat-description
+{
+  margin-top: .5vw;
+  float: right;
+  border: solid 2px;
+  width: 15vw;
+  font-size: .9vw;
+  text-align: center;
+  border-top: none;
+  border-bottom: none;
+}
+
+.chat-image
+{
+  float: left;
+  width: 15vw;
+}
+
+.feature-meetings
+{
+  font-size: 1.5vw;
+  border: solid;
+  padding-left: 25vw;
+  padding-right: 25vw;
+  border-left: none;
+  border-right: none;
+  overflow: auto;
+}
+
+.meeting-description
+{
+  border: solid 2px;
+  width: 15vw;
+  font-size: .9vw;
+  text-align: center;
+  border-top: none;
+  border-bottom: none;
+  display: inline-block;
+  margin-top: .5vw;
+}
+
+.meeting-image
+{
+  width: 15vw;
+  float: right;
+  padding-bottom: .5vw;
+}
+
+/*Start of Grid Preview*/
+
+.homepage-grid
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #E0FFFF;
+  justify-content: center;
+  align-content: center;
+  padding-top: 15px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 21vw 21vw 21vw 21vw;
+  column-gap: 15px;
+  row-gap: 30px;
+}
+
+.internship1
+{
+  font-family: 'Crimson Text', serif;
+  border: solid;
+  border-color: #91c5f3;
+  display: inline-block;
+  border-radius: 16px;
+  height: 24.5vh;
+  background-color: #B9D9EB;
+}
+
+.internship2
+{
+  font-family: 'Crimson Text', serif;
+  border: solid;
+  border-color: #91c5f3;
+  border-radius: 16px;
+  height: 24.5vh;
+  background-color:#AFEEEE; 
+}
+
+.internship3
+{
+  font-family: 'Crimson Text', serif;
+  border: solid;
+  border-color: #91c5f3;
+  border-radius: 16px;
+  height: 24.5vh;
+  background-color: #6495ED;
+}
+
+.internship4
+{
+  font-family: 'Crimson Text', serif;
+  border: solid;
+  border-color: #91c5f3;
+  border-radius: 16px;
+  height: 24.5vh;
+  background-color:#87CEFA;
+}
+
+.intern-preview
+{
+  border: none;
+  margin-top:5px;
+  margin-left:5px;
+  display: inline-block;
+  height: 15.8vh;
+  width: 17vw;
+  border-radius: 10px;
+}
+
+.intern-stats
+{
+  color: rgba(0, 0, 0, 0.7);
+  margin-right: 7px;
+  float: right;
+  margin-top: 7px;
+  font-size: 1.17vh;
+  width: 65px;
+  border-left: solid;
+  border-right: solid;
+  height: 23vh;
+  text-align: center;
+}
+
+.intern-description
+{
+  margin-left: 5px;
+  height: 65px;
+  width: 17vw;
+  display: inline-block;
+}
+
+.admin-diff
+{
+  margin-top: 2px;
+}
+
+.sub-description
+{
+  margin: 0px;
+  margin-left: 3px;
+  font-size: 1.2vh;
+}
+
+.why-title
+{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.why_us
+{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  overflow: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.peers
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgba(93, 95, 93, .45);
+  background-color: #99BBD8;
+  font-size: 25px;
+  display: inline-block;
+  width: 400px;
+  height: 325px;
+}
+
+.peers-p
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin:0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.relatable
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgba(93, 95, 93, .45);
+  background-color: #99BBD8;
+  font-size: 25px;
+  display: inline-block;
+  width: 400px;
+  height: 325px;
+}
+
+.relatable-p
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin:0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  line-height: 25px;
+}
