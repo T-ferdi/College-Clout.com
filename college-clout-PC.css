@@ -88,11 +88,12 @@ div
 /* Website GOAL/STATEMENT Start*/
 .website-goal
 {
+  background-image: url("https://www.pngkit.com/png/full/766-7664123_graduates-cut-background-for-graduation-tarpaulin.png");
   display: flex;
   flex-direction: column;
   background-color: white;
   width: 100vw;
-  height: 64vh;
+  height: 62vh;
   box-shadow: 3px 3px 10px rgba(93, 95, 93, .45);
   overflow: auto;
   align-items: center;
@@ -127,13 +128,6 @@ div
   font-weight: bold;
   font-family: 'Kantumruy Pro', sans-serif;
   margin-bottom: 1vw;
-}
-
-.home-pg-img
-{
-  background-image: radial-gradient(white,aliceblue);
-  height:300px;
-  width: 1152px;
 }
 
 /*Start of Key Feature Element*/

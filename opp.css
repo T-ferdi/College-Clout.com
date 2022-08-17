@@ -85,3 +85,106 @@ div
   margin: auto;
 }
 
+/*Start of Grid Preview*/
+
+.homepage-grid
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #E0FFFF;
+  justify-content: center;
+  align-content: center;
+  padding-top: 15px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 338px 338px 338px 338px;
+  column-gap: 15px;
+  row-gap: 30px;
+}
+
+.internship1
+{
+  font-family: 'Crimson Text', serif;
+  border: solid;
+  border-color: #91c5f3;
+  display: inline-block;
+  border-radius: 16px;
+  height: 210px;
+  background-color: #36D6E7;
+}
+
+.internship2
+{
+  font-family: 'Crimson Text', serif;
+  border: solid;
+  border-color: #91c5f3;
+  border-radius: 16px;
+  height: 210px;
+  background-color:#AFEEEE;
+}
+
+.internship3
+{
+  font-family: 'Crimson Text', serif;
+  border: solid;
+  border-color: #91c5f3;
+  border-radius: 16px;
+  height: 210px;
+  background-color: #6495ED;
+}
+
+.internship4
+{
+  font-family: 'Crimson Text', serif;
+  border: solid;
+  border-color: #91c5f3;
+  border-radius: 16px;
+  height: 210px;
+  background-color:orchid;
+}
+
+.intern-preview
+{
+  border: none;
+  margin-top:5px;
+  margin-left:5px;
+  display: inline-block;
+  height: 124px;
+  width: 244px;
+  border-radius: 10px;
+}
+
+.intern-stats
+{
+  color: rgba(0, 0, 0, 0.7);
+  margin-right: 7px;
+  float: right;
+  margin-top: 7px;
+  font-size: 10px;
+  width: 65px;
+  border-left: solid;
+  border-right: solid;
+  height: 191px;
+  text-align: center;
+}
+
+.intern-description
+{
+  margin-left: 5px;
+  height: 65px;
+  width: 247px;
+  display: inline-block;
+}
+
+.admin-diff
+{
+  margin-top: 2px;
+}
+
+.sub-description
+{
+  margin: 0px;
+  margin-left: 3px;
+  font-size: 9.7px;
+}
+
