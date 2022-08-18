@@ -81,8 +81,9 @@ div
 
 .top-layer
 {
-  height: 64vh;
+  height: 47.5vh;
   margin: auto;
+  
 }
 
 /* Website GOAL/STATEMENT Start*/
@@ -93,7 +94,7 @@ div
   flex-direction: column;
   background-color: white;
   width: 100vw;
-  height: 62vh;
+  height: 47.5vh;
   box-shadow: 3px 3px 10px rgba(93, 95, 93, .45);
   overflow: auto;
   align-items: center;
