@@ -81,21 +81,21 @@ div
 
 .top-layer
 {
-  height: 70vh;
+  height: 64vh;
   margin: auto;
 }
 
 /* Website GOAL/STATEMENT Start*/
 .website-goal
 {
-  background-image: url("Images/zV-n0ah3pKda0DxAdWnyY-transformed.jpeg");
+  background-image: url("Images/zV-n0ah3pKda0DxAdWnyY-transformed_auto_x2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   background-color: white;
   width: 100vw;
-  height: 70vh;
+  height: 64vh;
   box-shadow: 3px 3px 10px rgba(93, 95, 93, .45);
   overflow: auto;
   align-items: center;
