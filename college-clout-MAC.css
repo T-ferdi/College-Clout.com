@@ -81,19 +81,21 @@ div
 
 .top-layer
 {
-  height: 60vh;
+  height: 70vh;
   margin: auto;
 }
 
 /* Website GOAL/STATEMENT Start*/
 .website-goal
 {
-  background-image: url("https://www.pngkit.com/png/full/766-7664123_graduates-cut-background-for-graduation-tarpaulin.png");
+  background-image: url("Images/zV-n0ah3pKda0DxAdWnyY-transformed.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   background-color: white;
   width: 100vw;
-  height: 60vh;
+  height: 70vh;
   box-shadow: 3px 3px 10px rgba(93, 95, 93, .45);
   overflow: auto;
   align-items: center;
