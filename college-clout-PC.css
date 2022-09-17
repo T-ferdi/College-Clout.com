@@ -136,46 +136,52 @@ div
 /*Start of Key Feature Element*/
 .features
 {
+  padding-top: 25px;
+  background-image: linear-gradient(to bottom right,#FDFDFD, #A5DAF8);
   border: solid;
+}
+
+.feature-title
+{
+  text-decoration: underline;
+  text-align: center;
+  font-size: 4vw;
 }
 
 .feature-oppurtunities
 {
   overflow: auto;
-  background-color:azure;
-  font-size: 1.5vw;
-  border: solid black;
-  padding-left: 25vw;
-  padding-right: 25vw;
+  font-size: 2vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
   border-left: none;
   border-right: none
 }
 
 .opp-description
 {
-  margin-top: .5vw;
-  color: black;
-  background-color: transparent;
-  width: 15vw;
-  font-size: .9vw;
-  text-align: center;
   border: solid 2px;
+  width: 20vw;
+  font-size: 1.2vw;
+  text-align: center;
   border-top: none;
   border-bottom: none;
   display: inline-block;
+  margin-top: .5vw;
 }
 
 .opp-image
 {
+  margin-top: 8px;
   border-radius: 10px;
-  width: 15vw;
+  width: 20vw;
   border: solid;
   display: grid;
-  grid-template-columns: 4vw 4vw 4vw;
-  column-gap: 1vw;
-  row-gap: 1vw;
+  grid-template-columns: 5vw 5vw 5vw;
+  column-gap: 1.1vw;
+  row-gap: 1.1vw;
   float: right;
-  height: 10vw;
+  height: 13vw;
   justify-content: center;
   align-content: center;
   margin-bottom: 1vw;
@@ -184,7 +190,7 @@ div
 .one, .two, .three, .four, .five, .six, .seven, .eight, .nine
 {
   border-radius: 5px;
-  height: 2vw;
+  height: 3vw;
   border: solid;
   box-shadow: 3px 3px 10px rgba(93, 95, 93, .45);
   font-size: 1vw;
@@ -207,12 +213,10 @@ div
 
 .feature-chat
 {
-  background-color:lightsteelblue;
   overflow: auto;
-  font-size: 1.5vw;
-  border: solid;
-  padding-left: 25vw;
-  padding-right: 25vw;
+  font-size: 2vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
   border-left: none;
   border-right: none
 }
@@ -226,7 +230,7 @@ div
 .title-chat
 {
   background-color: transparent;
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 
 .chat-description
@@ -234,8 +238,8 @@ div
   margin-top: .1vw;
   float: right;
   border: solid 2px;
-  width: 15vw;
-  font-size: .9vw;
+  width: 20vw;
+  font-size: 1.2vw;
   text-align: center;
   border-top: none;
   border-bottom: none;
@@ -245,16 +249,14 @@ div
 .chat-image
 {
   float: left;
-  width: 15vw;
+  width: 20vw;
 }
 
 .feature-meetings
 {
-  background-color: rgb(228, 242, 255);
-  font-size: 1.5vw;
-  border: solid;
-  padding-left: 25vw;
-  padding-right: 25vw;
+  font-size: 2vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
   border-left: none;
   border-right: none;
   overflow: auto;
@@ -263,8 +265,8 @@ div
 .meeting-description
 {
   border: solid 2px;
-  width: 15vw;
-  font-size: .9vw;
+  width: 20vw;
+  font-size: 1.2vw;
   text-align: center;
   border-top: none;
   border-bottom: none;
@@ -274,7 +276,7 @@ div
 
 .meeting-image
 {
-  width: 15vw;
+  width: 20vw;
   float: right;
   padding-bottom: .5vw;
 }
