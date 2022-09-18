@@ -291,34 +291,34 @@ div
 {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #E0FFFF;
   justify-content: center;
   align-content: center;
   padding-top: 15px;
   width: 100%;
   display: grid;
-  grid-template-columns: 338px 338px 338px 338px;
-  column-gap: 15px;
+  grid-template-columns: 338px 338px 338px;
+  column-gap: 81px;
   row-gap: 30px;
+  background-image: linear-gradient(to bottom left,#A5DAF8, #FDFDFD );
 }
 
 .internship1
 {
+  box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.45);
   font-family: 'Crimson Text', serif;
+  color:#A5DAF8;
   border: solid;
   border-color: #91c5f3;
   display: inline-block;
-  border-radius: 16px;
   height: 210px;
-  background-color: #B9D9EB;
+  background-color: #306d90;
 }
 
-.internship2
+/*.internship2
 {
   font-family: 'Crimson Text', serif;
   border: solid;
   border-color: #91c5f3;
-  border-radius: 16px;
   height: 210px;
   background-color:#AFEEEE;
 }
@@ -328,7 +328,6 @@ div
   font-family: 'Crimson Text', serif;
   border: solid;
   border-color: #91c5f3;
-  border-radius: 16px;
   height: 210px;
   background-color: #6495ED;
 }
@@ -338,10 +337,9 @@ div
   font-family: 'Crimson Text', serif;
   border: solid;
   border-color: #91c5f3;
-  border-radius: 16px;
   height: 210px;
   background-color:#F0F8FF;
-}
+}*/
 
 .intern-preview
 {
@@ -356,14 +354,13 @@ div
 
 .intern-stats
 {
-  color: rgba(0, 0, 0, 0.7);
+  color: #FDFDFD;
   margin-right: 7px;
   float: right;
   margin-top: 7px;
   font-size: 10px;
   width: 65px;
   border-left: solid;
-  border-right: solid;
   height: 191px;
   text-align: center;
 }
