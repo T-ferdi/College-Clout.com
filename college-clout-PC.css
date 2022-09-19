@@ -57,7 +57,7 @@ div
 {
   padding-bottom: 5px;
   height: 63px;
-  border-bottom: 4px dotted black;
+  /*border-bottom: 4px dotted black;*/
 }
 
 .top-left-logo
