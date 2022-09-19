@@ -287,6 +287,41 @@ div
 
 /*Start of Grid Preview*/
 
+.opp-page
+{
+  border-top: 2.5px dashed black;
+  align-content: center;
+  background-image: linear-gradient(to bottom left,#A5DAF8, #FDFDFD );
+  margin: 0;
+}
+
+.grid-title
+{
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;
+  text-decoration: underline;
+  font-size: 3vw;
+  padding-bottom: 20px;
+}
+
+.button-opp
+{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 20px;
+}
+.opp-button
+{
+  background-image: linear-gradient(to top right, rgb(112, 172, 255), rgba(187, 169, 251, 0.488));
+  border-radius: 10px;
+  border-bottom: 2.5px solid rgb(94, 137, 197);
+  width: 200px;
+  height: 70px;
+  font-size: 2vw;
+}
+
 .homepage-grid
 {
   padding-top: 30px;
@@ -299,7 +334,7 @@ div
   grid-template-columns: 338px 338px 338px;
   column-gap: 81px;
   row-gap: 30px;
-  background-image: linear-gradient(to bottom left,#A5DAF8, #FDFDFD );
+  padding-bottom: 20px;
 }
 
 .internship1
