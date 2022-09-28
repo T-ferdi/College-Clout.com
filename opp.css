@@ -57,7 +57,6 @@ div
 {
   padding-bottom: 5px;
   height: 63px;
-  border-bottom: 4px dotted black;
 }
 
 .top-left-logo
@@ -85,35 +84,56 @@ div
   margin: auto;
 }
 
+.container
+{
+  height: 100%;
+  background-image:linear-gradient(to left bottom,#306d90, rgb(203, 156, 247) );
+  clear: both;
+}
+
+.opp-title
+{
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top: 100px;
+  color:rgb(250, 250, 250);
+  float: right;
+  text-align: center;
+  width: 23%;
+  font-size: 45px;
+  height: 100%;
+}
+
 /*Start of Grid Preview*/
 
 .homepage-grid
 {
+  border-right: rgb(250, 250, 250) dashed 2px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #E0FFFF;
   justify-content: center;
   align-content: center;
   padding-top: 15px;
-  width: 100%;
+  width: 75%;
   display: grid;
-  grid-template-columns: 338px 338px 338px 338px;
+  grid-template-columns: 338px 338px 338px;
   column-gap: 15px;
   row-gap: 30px;
+  margin: 0;
+  height: 100%;
 }
 
 .internship1
 {
   font-family: 'Crimson Text', serif;
   border: solid;
-  border-color: #91c5f3;
+  border-color: #2f9dfd;
   display: inline-block;
-  border-radius: 16px;
   height: 210px;
-  background-color: #36D6E7;
+  background-color: #91c5f3;
 }
 
-.internship2
+/*.internship2
 {
   font-family: 'Crimson Text', serif;
   border: solid;
@@ -141,7 +161,7 @@ div
   border-radius: 16px;
   height: 210px;
   background-color:orchid;
-}
+}*/
 
 .intern-preview
 {
@@ -151,7 +171,6 @@ div
   display: inline-block;
   height: 124px;
   width: 244px;
-  border-radius: 10px;
 }
 
 .intern-stats
@@ -163,7 +182,6 @@ div
   font-size: 10px;
   width: 65px;
   border-left: solid;
-  border-right: solid;
   height: 191px;
   text-align: center;
 }
