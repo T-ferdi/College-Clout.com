@@ -81,7 +81,7 @@ div
 
 .top-layer
 {
-  height: 64vh;
+  height: 62.05vh;
   margin: auto;
 }
 
@@ -95,7 +95,7 @@ div
   flex-direction: column;
   background-color: white;
   width: 100vw;
-  height: 64vh;
+  height: 62.05vh;
   overflow: auto;
   align-items: center;
 }
