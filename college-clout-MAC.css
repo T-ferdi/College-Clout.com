@@ -419,6 +419,11 @@ div
   font-size: 9.7px;
 }
 
+.why-us-element
+{
+  background-image: linear-gradient(to bottom right, #FDFDFD, #A5DAF8);
+}
+
 .why-title
 {
   margin-top: 50px;
@@ -430,7 +435,6 @@ div
 .why-title
 {
   color:black;
-  background-color: #b5fae3;
   border-top: dotted;
   padding-top: 50px;
   padding-bottom: 20px;
@@ -441,7 +445,6 @@ div
 
 .why_us
 {
-  background-color: #b5fae3;
   padding-top: 10px;
   padding-bottom: 50px;
   overflow: auto;
@@ -456,7 +459,6 @@ div
 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   border-radius: 20px;
-  box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.45);
   background-color: #99BBD8;
   font-size: 25px;
   display: inline-block;
@@ -478,7 +480,6 @@ div
 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   border-radius: 20px;
-  box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.45);
   background-color: #99BBD8;
   font-size: 25px;
   display: inline-block;
@@ -494,4 +495,45 @@ div
   padding-bottom: 10px;
   font-size: 18px;
   line-height: 25px;
+}
+
+.socials-parent
+{
+  padding-top: 20px;
+  background-color: rgb(24, 24, 24);
+  color: rgb(123, 133, 160);
+  height: 150px;
+}
+
+.socials-child
+{
+  margin-top: 12px;
+  border-top: solid rgb(75, 75, 75);
+  padding-top: 10px;
+  width: 94vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.legal-details
+{
+  padding-top: 15px;
+  padding-left: 10px;
+  width: 42vw;
+  display: inline-block;
+}
+.college-clout-details
+{
+  padding-top: 15px;
+  padding-left: 10px;
+  width: 42vw;
+}
+
+.socials-link
+{
+  height: 1.8vw;
+  width: 1.8vw;
+  float: right;
+  margin-right: 10vw;
+  margin-top: 20px;
 }
