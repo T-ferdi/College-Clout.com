@@ -512,21 +512,21 @@ div
   border-top: solid rgb(75, 75, 75);
   padding-top: 10px;
   width: 94vw;
-  margin-left: 4vw;
-  margin-right: 4vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
 .legal-details
 {
   padding-top: 15px;
-  padding-left: 10px;
+  padding-left: 17px;
   width: 42vw;
   display: inline-block;
 }
 .college-clout-details
 {
   padding-top: 15px;
-  padding-left: 10px;
+  padding-left: 17px;
   width: 42vw;
 }
 
