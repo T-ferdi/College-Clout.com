@@ -206,3 +206,43 @@ div
   font-size: 9.7px;
 }
 
+.socials-parent
+{
+  padding-top: 20px;
+  background-color: rgb(30, 40, 65);
+  color: rgb(123, 133, 160);
+  height: 150px;
+}
+
+.socials-child
+{
+  margin-top: 12px;
+  border-top: solid rgb(75, 75, 75);
+  padding-top: 10px;
+  width: 94vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.legal-details
+{
+  padding-top: 15px;
+  padding-left: 17px;
+  width: 42vw;
+  display: inline-block;
+}
+.college-clout-details
+{
+  padding-top: 15px;
+  padding-left: 17px;
+  width: 42vw;
+}
+
+.socials-link
+{
+  height: 1.8vw;
+  width: 1.8vw;
+  float: right;
+  margin-right: 10vw;
+  margin-top: 20px;
+}

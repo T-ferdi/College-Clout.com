@@ -107,7 +107,6 @@ img
   width: 256px;
   height: 370px;
   display: inline-block;
-  border-radius: 50px;
 }
 
 .about-founders
@@ -169,9 +168,53 @@ img
 .akil-img
 {
 margin-left: 25%;
+border-radius: 50px;
 }
 
 .tristan-img
 {
   margin-left: 25%;
+  border-radius: 50px;
+}
+
+.socials-parent
+{
+  padding-top: 20px;
+  background-color: rgb(30, 40, 65);
+  color: rgb(123, 133, 160);
+  height: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.socials-child
+{
+  margin-top: 12px;
+  border-top: solid rgb(75, 75, 75);
+  padding-top: 10px;
+  width: 94vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.legal-details
+{
+  padding-top: 15px;
+  padding-left: 17px;
+  width: 42vw;
+  display: inline-block;
+}
+.college-clout-details
+{
+  padding-top: 15px;
+  padding-left: 17px;
+  width: 42vw;
+}
+
+.socials-link
+{
+  height: 1.8vw;
+  width: 1.8vw;
+  float: right;
+  margin-right: 10vw;
+  margin-top: 20px;
 }
